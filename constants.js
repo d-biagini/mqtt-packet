@@ -2,7 +2,6 @@
 const protocol = module.exports
 const { Buffer } = require('buffer')
 
-
 /* Command code => mnemonic */
 protocol.types = {
   0: 'reserved',
