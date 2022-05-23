@@ -1,4 +1,6 @@
 const protocol = require('./constants')
+const { Buffer } = require('buffer')
+
 const empty = Buffer.allocUnsafe(0)
 const zeroBuf = Buffer.from([0])
 const numbers = require('./numbers')

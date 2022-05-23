@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "bl": "^4.0.2",
+    "buffer": "^6.0.3",
     "debug": "^4.1.1",
     "process-nextick-args": "^2.0.1"
   }

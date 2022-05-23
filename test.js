@@ -4,6 +4,8 @@ const test = require('tape')
 const mqtt = require('./')
 const WS = require('readable-stream').Writable
 
+const { Buffer } = require('buffer')
+
 function normalExpectedObject (object) {
   if (object.username != null) object.username = object.username.toString()
   if (object.password != null) object.password = Buffer.from(object.password)

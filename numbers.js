@@ -1,3 +1,5 @@
+const { Buffer } = require('buffer')
+
 const max = 65536
 const cache = {}
 

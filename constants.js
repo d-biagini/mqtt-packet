@@ -1,5 +1,7 @@
 /* Protocol - protocol constants */
 const protocol = module.exports
+const { Buffer } = require('buffer')
+
 
 /* Command code => mnemonic */
 protocol.types = {
